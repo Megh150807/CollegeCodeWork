@@ -23,7 +23,7 @@ void* philosopher(void* num) {
             sem_wait(&forks[id]);           // Pick up left
         }
 
-        printf("Philosopher %d is EATING 🍝\n", id);
+        printf("Philosopher %d is EATING \n", id);
         sleep(2);
 
         // Put down forks
